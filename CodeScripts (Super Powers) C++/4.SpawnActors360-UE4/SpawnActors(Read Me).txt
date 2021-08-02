@@ -1,0 +1,16 @@
+SpawnActors 360:
+will spawn any object of the  actor subclass you chose several times around a circle.  
+
+
+
+Variables:
+(Float)Tetha: angle between each object.
+(Float) Radius: Size of the circle.
+(Bool) Deviate Orientation: Wether to randomize their rotations or not.
+
+Instructions(How To Add to your Project). 
+•Open unreal engine 
+•Create a new c++ actor class
+•copy and paste the.h and.cpp file into the.h and.cpp file of the newly created actor. 
+• Replace all mentions of “themeshspawnee” with the name of your actor.
+• Replace "MESHMAKER_API" with "Your project/plugin name"_API
